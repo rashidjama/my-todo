@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+.todo__app {
+  max-width: 668px;
+  max-height: 500px;
+  background: rgb(50, 46, 200);
+  margin: 3rem auto;
+  padding: 3rem;
+  border-radius: 20px;
+  overflow: scroll;
+}
+.title {
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+input {
+  width: 100%;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.4rem;
+}
+.app__ul {
+  margin-top: 3rem;
+}
+.list__items {
+  color: #fff;
+  list-style: none;
+  border-bottom: 1px solid #fff;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.done {
+  border-bottom: 1px solid gray;
+  color: gray;
+  text-decoration: line-through;
+}
+.span {
+  font-size: 1.5rem;
+  color: white;
+}
+.span:hover {
+  cursor: pointer;
+}
